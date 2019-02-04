@@ -12,5 +12,8 @@ $("article").append("<div>"+i+"</div>");
 var n = "Search for ..."
 
 $("input#msg").attr("value", "Search for ...");
+
+$("a").attr("href", "https://www.codefactory.wien");
+
 })
 
