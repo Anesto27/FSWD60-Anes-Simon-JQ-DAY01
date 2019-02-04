@@ -9,8 +9,8 @@ for (i=1; i<6; i++) {
 $("article").append("<div>"+i+"</div>");
 }
 
-var n = "Search for ..."
 
-$("input#msg").value(n);
+
+$("input#msg").value("Search for it....");
 })
 
