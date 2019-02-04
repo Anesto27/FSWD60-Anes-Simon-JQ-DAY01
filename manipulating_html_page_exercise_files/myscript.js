@@ -11,6 +11,6 @@ $("article").append("<div>"+i+"</div>");
 
 var n = "Search for ..."
 
-$("input#msg").value(n);
+$("input#msg").attr("value", "Search for ...");
 })
 
