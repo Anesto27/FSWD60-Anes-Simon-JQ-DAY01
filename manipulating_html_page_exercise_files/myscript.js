@@ -7,10 +7,14 @@ $(document).ready(function(){
 // $("form").remove();
 for (i=1; i<6; i++) {
 $("article").append("<div>"+i+"</div>");
+//$("article div:eq("+(i-1)+")").addClass("box"); //first solution//
+$("article div:eq("+(i-1)+")").addClass("box");
 }
 
 
+$("input#msg").attr("value", "Search for ...");
 
-$("input#msg").value("Search for it....");
+
+
 })
 
