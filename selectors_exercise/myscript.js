@@ -21,13 +21,13 @@
 // $("div.note").css("background-color","yellow");
 
 // all p elements in the article element
-
+//$("article p").css("background-color","yellow");
 
 // the last element in any section which is a p tag
-
+//$("p:last").css("background-color","yellow");
 
 // the first paragraph on the page
-
+//$("p:first").css("background-color","yellow");
 
 // all p elements which have a link
 
