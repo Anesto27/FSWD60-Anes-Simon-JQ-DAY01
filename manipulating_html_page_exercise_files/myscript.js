@@ -14,7 +14,13 @@ $("article div:eq("+(i-1)+")").addClass("box");
 
 $("input#msg").attr("value", "Search for ...");
 
-$("a[href='http://www.codefactory.com/']").attr("href", "www.google.com");
+
+//$("a[href='http://www.codefactory.com/']").attr("href", "www.google.com");
+
+$("a").attr("href", "https://www.codefactory.wien");
+
+
+
 
 })
 
