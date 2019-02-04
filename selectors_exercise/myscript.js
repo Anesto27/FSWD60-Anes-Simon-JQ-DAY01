@@ -30,9 +30,10 @@
 //$("p:first").css("background-color","yellow");
 
 // all p elements which have a link
-
+//$("p a").css("background-color","yellow");
 
 // the second li within nested ul element
-
+//$("ul li:eq(2)").css("background-color","yellow");
 
 // every second and third p element
+$("p:nth-child(2),p:nth-child(3)").css("background-color","yellow");
