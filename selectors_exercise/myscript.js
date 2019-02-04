@@ -9,16 +9,16 @@
 // $("*").css("background-color", "yellow");
 
 // all p elements
-
+// $("p").css("background-color","yellow");
 
 // the p element with an ID of "intro"
-
+// $("p#intro").css("background-color","yellow");
 
 // all elements with a class of "note"
-
+// $("*.note").css("background-color","yellow");
 
 // all DIV elements with a class of note
-
+// $("div.note").css("background-color","yellow");
 
 // all p elements in the article element
 
